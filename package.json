@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "build": "mkdir -p dist; rm -Rv dist/*; cp -Rv src/* dist"
+  },
   "devDependencies": {
     "@qworum/netlify-plugin-qworum": "^1.0.13"
   }
