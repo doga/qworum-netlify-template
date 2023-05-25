@@ -15,7 +15,7 @@
   publish = "dist"
 
   # Default build command.
-  command = "mkdir -p dist; cp -Rv src/* dist"
+  command = "mkdir -p dist; rm -Rv dist/*; cp -Rv src/* dist"
 
 [[plugins]]
   package = "@qworum/netlify-plugin-qworum"
