@@ -10,4 +10,14 @@ Use the button below for deploying a copy of this template to Netlify.
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/doga/qworum-netlify-template)
 
+## Verify that Qworum is activated
+
+Using Qworum's Netlify build plugin is recommended in order to ensure that Qworum is activated for the deployed website.
+
+[Add the Qworum plugin to your website build process directly from Netlify's Integration Hub](https://app.netlify.com/plugins/@qworum/netlify-plugin-qworum/install).
+
+## Live demo
+
+[netlify.template.qworum.net](https://netlify.template.qworum.net).
+
 ∎
