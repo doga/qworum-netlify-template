@@ -17,5 +17,5 @@
   # Default build command.
   command = "mkdir -p dist; cp -Rv src/* dist"
 
-# [[plugins]]
-#   package = "@qworum/netlify-plugin-qworum"
+[[plugins]]
+  package = "@qworum/netlify-plugin-qworum"
