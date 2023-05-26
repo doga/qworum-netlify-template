@@ -45,6 +45,14 @@ A free plan is available for individuals. See the [Qworum plans and pricing](htt
 
 ## Live demo
 
-[netlify.template.qworum.net](https://netlify.template.qworum.net).
+Use this application live at [netlify.template.qworum.net](https://netlify.template.qworum.net).
+
+See a video recording of this application:
+
+[![Screenshot](Screenshot.png)](https://youtube.com/shorts/JxmJ0n7FhYE?feature=share)
+
+## License
+
+This software is released under the terms of the [Apache 2.0 license](https://www.apache.org/licenses/LICENSE-2.0).
 
 ∎
