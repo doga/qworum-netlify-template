@@ -15,9 +15,7 @@
   publish = "dist"
 
   # Default build command.
-  # WARNING: Commenting this out does not prevent Netlify from triggering a build
-  # command = "npm run build" 
-  command = "mkdir -p dist; rm -Rv dist/*; cp -Rv src/* dist" 
+  # command = "npm run build" # Uncomment this if you wish Netlify to build your project for you.
 
 [[plugins]]
   package = "@qworum/netlify-plugin-qworum"
