@@ -17,14 +17,6 @@ button#close {
   background-color: rgba(255, 255, 255, 255);
   margin: 0;
   padding: 0;
-  /* font-weight: bold; */
-  /* color: #555; */
-  /* padding: 0.5em 1em; */
-  /* margin: 0 0.5em; */
-  /* border-radius: 0.5em; */
-  /* border-width: 2px; */
-  /* border-color: #aaa; */
-  /* cursor: pointer; */
 }
 
 button#close::before {
