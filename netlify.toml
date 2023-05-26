@@ -1,5 +1,9 @@
 # Settings in the [build] context are global and are applied to
 # all contexts unless otherwise overridden by more specific contexts.
+
+# ⚠️⚠️⚠️ If a build setting is commented out, then Netlify will fall back on the setting
+# that was specified on https://app.netlify.com/sites/PROJECT/settings/deploys,
+# and if that setting is empty, then it will use the default setting (no build command, etc).
 [build]
   # Directory to change to before starting a build.
   # This is where we will look for package.json/.nvmrc/etc.
