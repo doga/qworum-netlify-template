@@ -27,7 +27,7 @@ Note that the API endpoint names mustn't be:
 
 ## Deploy to Netlify
 
-Click on the button below.
+You can click on the button below for deployment. Alternatively, create your own GitHub repo from this template repo and, click on your own updated button.
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/doga/qworum-netlify-template)
 
