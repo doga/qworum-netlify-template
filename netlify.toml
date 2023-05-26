@@ -16,7 +16,8 @@
 
   # Default build command.
   # WARNING: Commenting this out does not prevent Netlify from triggering a build
-  command = "npm run build" 
+  # command = "npm run build" 
+  command = "mkdir -p dist; rm -Rv dist/*; cp -Rv src/* dist" 
 
 [[plugins]]
   package = "@qworum/netlify-plugin-qworum"
