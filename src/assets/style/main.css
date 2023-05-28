@@ -10,7 +10,7 @@ button {
   cursor: pointer;
 }
 
-button#close {
+button.close {
   float: right;
   font-size: 200%;
   border-width: 0;
@@ -19,10 +19,14 @@ button#close {
   padding: 0;
 }
 
-button#close::before {
+button.close::before {
   content: "❎"
 }
 
 li {
   margin: 0.5em 0;
+}
+
+.item-title  {
+  text-transform: capitalize;
 }

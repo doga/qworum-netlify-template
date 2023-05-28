@@ -37,6 +37,7 @@ function showItems() {
     li     = document.createElement('li'),
     button = document.createElement('button');
 
+    button.className = 'item-title';
     button.innerText = item.title;
     li.appendChild(button);
     contentArea.appendChild(li);
