@@ -1,22 +1,22 @@
 
 // The Qworum library.
 // Documentation: https://qworum.net/docs/qworum-for-web-pages/latest/
-import { Qworum } from "https://cdn.skypack.dev/@qworum/qworum-for-web-pages@1.0.11";
+import { Qworum } from "https://esm.sh/@qworum/qworum-for-web-pages@1.0.11";
 
 const
-// Qworum Data value types
-Json         = Qworum.Json,
-SemanticData = Qworum.SemanticData,
-// Qworum instructions
-Data     = Qworum.Data,
-Return   = Qworum.Return,
-Sequence = Qworum.Sequence,
-Goto     = Qworum.Goto,
-Call     = Qworum.Call,
-Fault    = Qworum.Fault,
-Try      = Qworum.Try,
-// Qworum script
-Script = Qworum.Script;
+  // Qworum Data value types
+  Json = Qworum.Json,
+  SemanticData = Qworum.SemanticData,
+  // Qworum instructions
+  Data = Qworum.Data,
+  Return = Qworum.Return,
+  Sequence = Qworum.Sequence,
+  Goto = Qworum.Goto,
+  Call = Qworum.Call,
+  Fault = Qworum.Fault,
+  Try = Qworum.Try,
+  // Qworum script
+  Script = Qworum.Script;
 
 console.debug(`[view-item] Qworum.version: ${Qworum.version}`);
 
@@ -28,23 +28,23 @@ import { items } from "./modules/items.mjs";
 
 await showItem();
 
-async function showItem() {  
+async function showItem() {
   console.debug(`showing item `);
   const
-  // call argument
-  itemIdArg = await Qworum.getData('item id'),
-  itemId    = itemIdArg.value,                   // int
-  item      = items[itemId],
+    // call argument
+    itemIdArg = await Qworum.getData('item id'),
+    itemId = itemIdArg.value,                   // int
+    item = items[itemId],
 
-  // UI
-  closeButton = document.getElementById('close'),
-  title       = document.getElementById('item-title'),
-  details     = document.getElementById('item-details');
+    // UI
+    closeButton = document.getElementById('close'),
+    title = document.getElementById('item-title'),
+    details = document.getElementById('item-details');
 
   console.debug(`item id: ${itemId} `);
 
 
-  title.innerText   = item.title;
+  title.innerText = item.title;
   details.innerText = item.details;
 
   // closeButton.onclick(async (event) => {
